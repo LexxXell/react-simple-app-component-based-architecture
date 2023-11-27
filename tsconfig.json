@@ -21,6 +21,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],

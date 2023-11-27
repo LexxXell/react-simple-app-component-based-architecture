@@ -1,5 +1,5 @@
-import Button from './components/ui/Button/Button';
-import EyeIcon from './components/ui/EyeIcon/EyeIcon';
+import Button from '@/components/ui/Button/Button';
+import EyeIcon from '@/components/ui/EyeIcon/EyeIcon';
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <br />
       <Button
         width="100px"
+        typeView="alt"
         onClick={() => {
           console.log('Button clicked');
         }}
