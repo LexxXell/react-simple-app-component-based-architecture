@@ -1,6 +1,8 @@
 import { FC, SVGProps, useState } from 'react';
 import EyeIconView from './EyeIconView';
 
+import styles from './styles/EyeIcon.module.scss';
+
 interface IEyeIconProps extends SVGProps<SVGSVGElement> {
   isActive?: boolean;
 }
@@ -13,7 +15,7 @@ const EyeIcon: FC<IEyeIconProps> = ({ onClick, isActive: initActive = false, cla
     onClick?.(e);
   };
 
-  const combinedClassName = `${className || ''} ${isActive ? 'active' : 'idle'}`.trim();
+  const combinedClassName = `${className || ''} ${isActive ? styles.active : styles.idle}`.trim();
 
   return <EyeIconView {...props} className={combinedClassName} onClick={onClickHandle} />;
 };

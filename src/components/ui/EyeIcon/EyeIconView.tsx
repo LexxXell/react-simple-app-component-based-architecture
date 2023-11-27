@@ -1,7 +1,5 @@
 import { FC, SVGProps } from 'react';
 
-import './styles/EyeIcon.scss';
-
 const EyeIconView: FC<SVGProps<SVGSVGElement>> = ({ ...props }) => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" {...props}>
