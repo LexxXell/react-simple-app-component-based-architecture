@@ -1,4 +1,4 @@
-button {
+.button {
   border-radius: 33px;
   background: #9e896a;
   color: #fff;
@@ -10,7 +10,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   background-color: #b0a080;
 }
 
@@ -26,7 +26,7 @@ button:hover {
   }
 }
 
-button:active {
+.button:active {
   background-color: #8a7a5f;
   animation: click 0.2s ease;
 }

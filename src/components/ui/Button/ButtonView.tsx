@@ -1,6 +1,6 @@
 import { FC, ReactNode, ButtonHTMLAttributes, CSSProperties } from 'react';
 
-import './styles/Button.scss';
+import styles from './styles/ButtonView.module.scss';
 
 interface IButtonStyleProps {
   width?: number | string;
@@ -18,7 +18,7 @@ const ButtonView: FC<IButtonViewProps> = ({ children, width, height, ...props })
   };
 
   return (
-    <button style={buttonStyle} {...props}>
+    <button className={styles.button} style={buttonStyle} {...props}>
       {children}
     </button>
   );
