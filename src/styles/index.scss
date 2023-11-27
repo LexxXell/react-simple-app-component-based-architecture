@@ -1,0 +1,45 @@
+/* Custom reset */
+
+*,
+:root {
+  user-select: none;
+  border: none;
+}
+
+:focus {
+  outline: none;
+  /* box-shadow: 0 0 5px rgba(52, 152, 219, 1); */
+}
+
+/* Custom Base Styles */
+
+html {
+  background: #fffefc;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h4,
+p,
+label {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h2 {
+  font-family: Poppins;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
