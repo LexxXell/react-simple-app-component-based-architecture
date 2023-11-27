@@ -1,0 +1,40 @@
+button {
+  border-radius: 33px;
+  background: #9e896a;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b0a080;
+}
+
+@keyframes click {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.98);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button:active {
+  background-color: #8a7a5f;
+  animation: click 0.2s ease;
+}
+
+.alt {
+  background: #553e19;
+}
+
+.alt:hover {
+  background: #765624;
+}
