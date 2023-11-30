@@ -1,1 +1,3 @@
-export * from './EyeIcon';
+import EyeIcon from './EyeIcon';
+
+export default EyeIcon;
