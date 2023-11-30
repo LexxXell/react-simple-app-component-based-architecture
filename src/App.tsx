@@ -1,19 +1,10 @@
-import Button from '@/components/ui/Button/Button';
-import EyeIcon from '@/components/ui/EyeIcon/EyeIcon';
+import Button from '@/components/ui/Button';
 
 const App = () => {
   return (
     <>
-      <EyeIcon width="18px" height="18px" isActive={true} onClick={() => console.log('EyeIcon clicked')} />
-      <br />
-      <Button
-        width="100px"
-        typeView="alt"
-        onClick={() => {
-          console.log('Button clicked');
-        }}
-      >
-        Ky
+      <Button width="232px" height="49px">
+        Login
       </Button>
     </>
   );

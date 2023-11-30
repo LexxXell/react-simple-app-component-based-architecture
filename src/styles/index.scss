@@ -1,3 +1,6 @@
+@use './variables.scss' as *;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 /* Custom reset */
 
 *,
@@ -41,5 +44,47 @@ h2 {
   font-size: 37px;
   font-style: normal;
   font-weight: 700;
+  line-height: normal;
+}
+
+// Fonts
+
+.__font_700_37 {
+  font-size: 37px;
+  font-weight: 700;
+  font-family: $font-family-main;
+  font-style: normal;
+  line-height: normal;
+}
+
+.__font_400_25 {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: $font-family-main;
+  font-style: normal;
+  line-height: normal;
+}
+
+.__font_400_16 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: $font-family-main;
+  font-style: normal;
+  line-height: normal;
+}
+
+.__font_300_15 {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: $font-family-main;
+  font-style: normal;
+  line-height: normal;
+}
+
+.__font_300_12 {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: $font-family-main;
+  font-style: normal;
   line-height: normal;
 }
